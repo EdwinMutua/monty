@@ -1,10 +1,6 @@
 #include "monty.h"
 
-/**
- * open_file - opens a file
- * @file_name: the file namepath
- * Return: void
- */
+
 
 void open_file(char *file_name)
 {
@@ -18,11 +14,7 @@ void open_file(char *file_name)
 }
 
 
-/**
- * read_file - reads a file
- * @fd: pointer to file descriptor
- * Return: void
- */
+
 
 void read_file(FILE *fd)
 {
